@@ -1,0 +1,93 @@
+*{
+  margin: 0; padding: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: gray;
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.box input[type = "submit"] {
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #0062ff;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover {
+  background: #0062ff
+}
+
+.box1 {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.box1 input[type = "submit"] {
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #0062ff;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box1 input[type = "submit"]:hover {
+  background: #0062ff
+}
+
+#particles-js{
+  background-image: url(dabi.jpg);
+  background-size: cover;
+  height: 640px;
+}
+
+.regbut {
+}
+
+.logbut {
+}
+
+.title {
+  color: orange;
+}
+
+table, th, td {
+  text-align: center;
+  color: orange;
+}
+
+h3 {
+  color: white;
+  font-size: 16px;
+}
